@@ -4,8 +4,8 @@ export default function NewItem({ quantity, increment, decrement }) {
     const [name, setName] = useState("");
     const [category, setCategory] = useState("Produce");
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
+    const handleSubmit = (event) => {
+        event.preventDefault();
         
         const item = {
             name,
