@@ -24,11 +24,11 @@ export default function NewItem({ quantity, increment, decrement, onAddItem }) {
 
 
         if (name.trim()) {
-            console.log("Submitting new item:", item);  // Debugging
-            onAddItem(item);  // Add the new item to the list
-            resetQuantity();   // Reset quantity after submission
-            setName("");       // Reset name field
-            setCategory("Produce");  // Reset category field
+            console.log("Submitting new item:", item);  
+            onAddItem(item);  
+            resetQuantity();   
+            setName("");       
+            setCategory("Produce");  
         } else {
             console.error("Item name is required.");
         }
