@@ -12,6 +12,10 @@ export default function Home() {
       <p><Link href="./week-4/advanced-counter">Week 4-Counter with props</Link></p>
       <p><Link href="./week-5/Assignment">Week 5 Assignment</Link></p>
       <p><Link href="./week-6">Week 6 Assignment</Link></p>
+      <p><Link href="./week-7">Week 7 Assignment</Link></p>
+      <p><Link href="./week-8">Week 8 Assignment</Link></p>
+
+
 
 
 
